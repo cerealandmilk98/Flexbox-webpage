@@ -1,0 +1,40 @@
+body, html {
+  background-color: #1F2937;
+  margin: 0;
+  padding: 0s;
+}
+/* added a header section with some flexbox */
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  padding: 10px;
+  margin-left: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+/* list-style-type: we dont want it looking like a link */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 120px;
+  font-size: smaller;
+  gap: 10px;
+
+}
