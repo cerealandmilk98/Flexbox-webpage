@@ -1,7 +1,7 @@
 body, html {
   background-color: #1F2937;
   margin: 0;
-  padding: 0s;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* added a header section with some flexbox */
 .header {
@@ -13,8 +13,7 @@ body, html {
 .header-logo {
   display: flex;
   padding: 10px;
-  margin-left: 110px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 60px;
   font-weight: 600;
 }
 /* list-style-type: we dont want it looking like a link */
@@ -27,14 +26,70 @@ ul {
 a {
   text-decoration: none;
   color: #E5E7EB;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
 .nav-list {
   display: flex;
-  margin-right: 120px;
+  margin-right: 65px;
   font-size: smaller;
   gap: 10px;
 
+}
+
+/* Hero section styles */
+.hero-section {
+  display: flex;
+  justify-content: space-between; /* Aligns items horizontally with space between */
+  align-items: flex-start; /* Aligns items at the start of the cross-axis */
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Keeps content aligned to the left */
+  margin-left: 50px;
+  width: 60%; 
+}
+
+.h1-1 {
+  margin-top: 50px;
+  width: 100%; 
+  height: auto; /* Adjusts height based on content */
+  color: white;
+  margin-bottom: 0px;
+}
+
+.p-1 {
+  margin-top: 0;
+  max-width: 500px; 
+  color: white;
+  margin-bottom: 10px;
+}
+
+.button1 {
+  width: 100px; 
+  height: 28px; 
+  background-color: #3882F6;
+  color: white;
+  border: 0;
+  border-radius: 4px; 
+  cursor: pointer;
+}
+
+.placeholder {
+  margin-left: 25px;
+  margin-right: 38px;
+  margin-top: 55px;
+  width: 65%; 
+  max-width: 370px; 
+  height: 185px; 
+  background-color: #ddddddb3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  text-align: center;
 }
