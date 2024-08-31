@@ -147,3 +147,46 @@ a {
   margin-top: 0px;
   margin-left: 400px;
 }
+
+/* Sign up styles */
+
+.sign-up-section {
+  padding: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.blue-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #3882F6;
+  color: white;
+  border-radius: 3px;
+}
+
+.blue-box-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.call-to-action {
+  margin-bottom: 0;
+}
+
+.sign-up-text {
+  margin-top: 0;
+}
+
+.sign-up-button2 {
+  background-color: #3882F6;
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin: 15px 50px 15px 70px;
+  width: 80px;
+  height: 30px;
+}
