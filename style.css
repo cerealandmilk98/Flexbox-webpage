@@ -44,7 +44,7 @@ a {
   justify-content: space-between; /* Aligns items horizontally with space between */
   align-items: flex-start; /* Aligns items at the start of the cross-axis */
   padding: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 
 .hero-content {
@@ -130,5 +130,20 @@ a {
 
 .quote-section {
   background-color: lightgray;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.quote-text {
+  margin-top: 90px;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: large;
+}
+
+.author {
+  margin-top: 0px;
+  margin-left: 400px;
 }
