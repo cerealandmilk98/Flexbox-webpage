@@ -1,0 +1,48 @@
+.hero-section {
+  display: flex;
+  padding: 100px;
+  background-color: #1F2937;
+}
+
+.left-section {
+ margin-right: 45px;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #F9FaF8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb79;
+  margin: 0;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.button1 {
+  background-color: #3882F6;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.placeholder {
+  background-color: rgba(128, 128, 128, 0.622);
+  height: 220px;
+  width: 400px;
+  flex-shrink: 0;
+  margin-left: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #F9FaF8
+}

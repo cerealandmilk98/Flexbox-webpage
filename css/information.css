@@ -1,0 +1,47 @@
+/* information styles */
+.information-section {
+  padding: 75px;
+  padding-top: 22px;
+}
+
+.information-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 22px;
+}
+
+.header-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 50px;
+}
+
+.bluebox1, .bluebox2, .bluebox3, .bluebox4 {
+  border: 3px solid #3882F6;
+  height: 155px;
+  width: 155px;
+  border-radius: 10px;
+}
+
+.subtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.subtext1, .subtext2, .subtext3, .subtext4 {
+  margin-top: 0;
+  font-size: 18px;
+  color: grey;
+  width: 160px;
+}

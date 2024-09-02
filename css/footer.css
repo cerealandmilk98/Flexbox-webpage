@@ -1,0 +1,13 @@
+.footer-section {
+  padding: 15px;
+  background-color: #1F2937;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright-text {
+  color:#F9FAF8;
+}
